@@ -12,7 +12,7 @@ export const Header = () => {
         transition="all 0.2s"
       >
         <Image
-          src="/logo.svg"
+          src="./logo.svg"
           alt="OUR AWESOME PLANE Logo"
           boxSize={{ base: "60px", md: "80px" }}
         />
@@ -36,14 +36,7 @@ export const Header = () => {
         >
           LAST MILE TARGETING
         </Text>
-        <Text
-          fontSize={{ base: "sm", md: "lg" }}
-          color="gray.400"
-          textAlign="center"
-        >
-          модуль автодонаведення
-        </Text>
       </VStack>
     </VStack>
   );
-}; 
+};
